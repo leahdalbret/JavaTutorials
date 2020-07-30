@@ -23,7 +23,7 @@ public class Workers extends javax.swing.JFrame {
  try { 
         String host = "jdbc:derby://localhost:1527/Employees";
         String uName = "User1";
-        String uPass = "Chest*82";
+        String uPass = "Pass1";
         con = DriverManager.getConnection( host, uName, uPass );
         
         stmt = con.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ResultSet.CONCUR_UPDATABLE);
